@@ -28,8 +28,6 @@ nav{
 article.square{
     border: 2px solid white;
     float: left;
-    width: calc(100% / 10 );
-    height: calc(100% / 10 );
     cursor: pointer;
     display: flex;
     text-align: center;
@@ -38,6 +36,21 @@ article.square{
     color: white;
     align-items: center;
     font-size: xx-large;
+}
+
+article.square-100{
+    width: calc(100% / 10 );
+    height: calc(100% / 10 );
+}
+
+article.square-81{
+    width: calc(100% / 9 );
+    height: calc(100% / 9 );
+}
+
+article.square-49{
+    width: calc(100% / 7 );
+    height: calc(100% / 7 );
 }
 
 .square > span{
