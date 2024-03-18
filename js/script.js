@@ -59,11 +59,5 @@ button.addEventListener('click' , function(){
             gridEl.appendChild(newSquare); 
 
         }
-    }
-
-
-     
+    }     
 })
-
-
-
